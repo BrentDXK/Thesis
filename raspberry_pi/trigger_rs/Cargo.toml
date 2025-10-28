@@ -1,0 +1,15 @@
+[package]
+name = "cam_trigger"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+rppal = "0.16"
+ctrlc = "3"
+rppal = "0.17"
+embedded-graphics = "0.8"
+sh1106 = "0.5"
+embedded-hal = "1.0.0"
+nb = "1.1"
